@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* common design section */
+.hidden {
+  display: none;
+}
+.common-p {
+  color: rgba(98, 115, 130, 1);
+  text-align: center;
+  max-width: 55ch;
+  /* border: 2px solid; */
+}
+.btn {
+  padding: 10px 15px;
+  background-color: rgba(70, 145, 101, 1);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+/* header section design */
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar img {
+  width: 140px;
+}
+.hero {
+  /* border: 2px solid red; */
+  background-image: url(assets/hero-bg.png);
+  height: 80vh;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  /* border: 2px solid; */
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero-content h1 {
+  font-size: 64px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.hero-content h1 span {
+  color: rgba(48, 184, 104, 1);
+}
+.hero-content p {
+  max-width: 65ch;
+  text-align: center;
+}
+.hero-btn-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.see-btn {
+  background-color: rgba(24, 16, 250, 0);
+  border: 1px solid white;
+}
+.early-access-btn {
+  padding: 10px 15px;
+  border-radius: 999px;
+  color: rgba(70, 145, 101, 1);
+  font-weight: 500;
+}
+/* note section design */
+.note-section {
+  /* border: 2px solid blue; */
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.note-section h2 {
+  /* border: 2px solid; */
+  text-align: center;
+  font-size: 44px;
+  color: rgba(0, 25, 49, 1);
+  margin-bottom: 10px;
+}
+.card-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.card {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.169);
+  border-radius: 8px;
+  min-height: 160px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card img{
+    background-color: rgba(249, 85, 85, 1);
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
