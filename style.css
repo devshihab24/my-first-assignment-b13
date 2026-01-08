@@ -18,6 +18,7 @@
 .btn {
   padding: 10px 15px;
   background-color: rgba(70, 145, 101, 1);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
   color: white;
   border-radius: 4px;
   border: none;
@@ -191,4 +192,21 @@ ul{
     color: rgba(70, 145, 101, 1);
     text-transform: uppercase;
     font-weight: 500;
+}
+/* ready to think section design */
+.think-section-content{
+    width: 80%;
+    margin: 60px auto;
+    background: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 15px;
+    padding: 80px 0;
+}
+.think-section-content h3{
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
 }
