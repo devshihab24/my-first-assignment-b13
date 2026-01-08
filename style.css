@@ -29,6 +29,9 @@ button {
   align-items: center;
   gap: 4px;
 }
+ul{
+    list-style: none;
+}
 
 /* header section design */
 .navbar {
@@ -39,8 +42,7 @@ button {
   width: 80%;
   margin: 20px auto;
 }
-.navbar ul {
-  list-style: none;
+.navbar > ul {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -103,12 +105,14 @@ button {
   border-radius: 999px;
   color: rgba(70, 145, 101, 1);
   font-weight: 500;
+  border: none;
 }
 /* note section design */
 .note-section {
   /* border: 2px solid blue; */
   width: 80%;
   margin: 40px auto;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,9 +144,51 @@ button {
   align-items: center;
   gap: 10px;
 }
-.card img{
-    background-color: rgba(249, 85, 85, 1);
-    width: 20px;
-    padding: 10px;
-    border-radius: 50%;
+.card img {
+  background-color: rgba(249, 85, 85, 1);
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+/* second brain section design */
+.second-brain {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-brain > img {
+  width: 40%;
+}
+.solution {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+.solution ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    color: rgba(0, 25, 49, 1);
+    padding: 6px 0;
+}
+.solution p{
+    text-align: start;
+    max-width: 48ch;
+}
+.solution h2{
+    font-size: 44px;
+    color: rgba(0, 25, 49, 1);
+}
+.solution-btn{
+    color: rgba(70, 145, 101, 1);
+    text-transform: uppercase;
+    font-weight: 500;
 }
